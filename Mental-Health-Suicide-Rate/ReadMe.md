@@ -6,7 +6,7 @@ This project is part of my personal learning journey as I continue to refine my 
 
 The dashboard provides insights into how the availability of mental health resources correlates with suicide rates across different countries, offering a valuable perspective on mental health trends globally.
 
-![Mental Health & Suicide Rates Dashboard](insert_image_link_here)
+![Mental Health & Suicide Rates Dashboard](https://github.com/Nkanyisogwane/Data-Analysis-Personal-Projects/blob/main/Mental-Health-Suicide-Rate/Mental.png?raw=true)
 
 ## **Key Metrics and Visualizations**
 
