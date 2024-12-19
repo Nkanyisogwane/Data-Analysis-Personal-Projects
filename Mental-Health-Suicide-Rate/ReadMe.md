@@ -45,7 +45,7 @@ The dashboard includes the following key metrics and visualizations:
 
 ## **How to Use**
 
-1. Clone this repository or download the Power BI file ([Mental_Health_Suicide_Rates.pbix](insert_file_link_here)).
+1. Clone this repository or download the Power BI file ([Mental_Health_Suicide_Rates.pbix](https://github.com/Nkanyisogwane/Data-Analysis-Personal-Projects/blob/main/Mental-Health-Suicide-Rate/mentalHealthandSuicideRates.pbix)).
 2. Open the Power BI file in **Power BI Desktop**.
 3. Interact with the dashboard by using slicers for countries to explore the data.
 4. Use the visualizations to analyze suicide rates and mental health resources across different countries.
@@ -64,4 +64,4 @@ This project was an excellent opportunity to apply Power BI in analyzing real-wo
 
 ## **Dataset Source**
 
-The dataset used for this analysis can be accessed here: [Insert Dataset Link Here]
+The dataset used for this analysis can be accessed here: [https://www.kaggle.com/datasets/twinkle0705/mental-health-and-suicide-rates?select=Facilities.csv]
