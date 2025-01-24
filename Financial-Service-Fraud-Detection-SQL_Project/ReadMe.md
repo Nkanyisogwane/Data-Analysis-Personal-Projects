@@ -20,7 +20,7 @@ This project combines learning and problem-solving while creating something valu
 ## 🛠 Methodology  
 For this project, I loaded the dataset into SQL Server, performed data cleaning, and ran multiple queries to extract insights. Below, you’ll find **a few key queries with explanations and screenshots** of their results.  
 
-Additionally, **all queries used in the project are included in the SQL file** (`AllQueries.sql`) in this repository.  
+Additionally, **all queries used in the project are included in the SQL file** (`Fraud-24Jan2024.sql`) in this repository.  
 
 ---
 
