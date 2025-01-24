@@ -31,16 +31,16 @@ Additionally, **all queries used in the project are included in the SQL file** (
 -- Check the first few rows
 SELECT TOP 10 * 
 FROM dbo.Fraud;
-
----
-
 This query allowed me to get a sense of the data structure and content.
 
+2. Count the Total Number of Transactions
 
 -- Count the total number of transactions
 SELECT COUNT(*) AS TotalTransactions 
 FROM dbo.Fraud;
 This query was essential to understand the dataset size and the scale of analysis required.
+
+3. Count the Number of Fraudulent Transactions
 
 -- Count the number of fraudulent transactions
 SELECT COUNT(*) AS FraudulentTransactions 
@@ -48,12 +48,16 @@ FROM dbo.Fraud
 WHERE isFraud = '1';
 I was surprised by how small the proportion of fraudulent transactions was. This query provided a good starting point for further analysis.
 
+4. Retrieve the Top 10 Accounts with the Highest Total Outgoing Transaction Amount
+
 -- Retrieve the top 10 accounts with the highest total outgoing transaction amount
 SELECT TOP 10 nameOrig, SUM(CAST(amount AS DECIMAL(18, 2))) AS TotalOutgoing
 FROM dbo.Fraud
 GROUP BY nameOrig
 ORDER BY TotalOutgoing DESC;
 This query showed which accounts were responsible for the largest outgoing transactions, helping to identify potentially suspicious activity.
+
+5. Accounts with Mismatched Balances (Potential Anomalies)
 
 -- Accounts with mismatched balances (potential anomalies)
 SELECT 
@@ -69,9 +73,7 @@ WHERE
         TRY_CAST(newbalanceOrig AS DECIMAL(18, 2)) - 
         TRY_CAST(amount AS DECIMAL(18, 2))
     ) > 0.01;
-
 This query highlighted discrepancies in account balances, suggesting potential errors or fraudulent behavior.
-
 
 🌟 Key Insights
 Most fraudulent transactions were of the type TRANSFER.
@@ -93,11 +95,12 @@ This project has reignited my passion for data analysis and reminded me of my ab
 🗂 Repository Contents
 README.md – This file contains a project overview and key queries with explanations.
 Screenshots/ – A folder containing screenshots of query results (referenced above).
-AllQueries.sql – A file containing all the SQL queries used in this project.
+Fraud-24Jan2024.sql – A file containing all the SQL queries used in this project.
 
 🔗 Conclusion
 This project showcases my ability to use SQL to extract insights, solve problems, and document findings in a professional manner. While I relied on AI to enhance my learning, I combined this guidance with critical thinking to complete the project independently.
 
 Check out the full project, including queries and results, in the repository.
+
 
 
