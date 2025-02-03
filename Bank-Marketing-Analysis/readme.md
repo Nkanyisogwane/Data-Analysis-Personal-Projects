@@ -7,6 +7,9 @@ SQL Queries – A set of structured queries to analyze patterns and trends in th
 Power BI Dashboard: Deposit Performance Overview
 I first built a Power BI dashboard to get a high-level view of deposit trends, customer demographics, and other key metrics. The goal was to provide clear, actionable insights through visualizations that help in understanding customer behavior and marketing performance.
 
+![image](https://github.com/user-attachments/assets/7b016126-6b6e-4873-90d8-2743c6931498)
+
+
 SQL Queries: Fast-Paced Problem Solving with AI
 Once the dashboard was done, I shifted to SQL analysis, but this time, I wasn’t focused on learning – I already had a solid understanding of the data. Instead, I approached it as if I had a deadline in a real work scenario. My focus was:
 
