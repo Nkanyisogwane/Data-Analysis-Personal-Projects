@@ -206,6 +206,7 @@ This repository is structured to provide a clear, end-to-end view of the data an
 
 ### Repository Structure
 
+```
 Vehicle Sales Performance Dashboard & ETL Pipeline/
 ├── 01_Data/
 │   ├── raw_data/
@@ -231,7 +232,7 @@ Vehicle Sales Performance Dashboard & ETL Pipeline/
 ├── README.md                             # This comprehensive project documentation file
 ├── requirements.txt                      # Python dependencies for easy environment setup
 └── .gitignore                            # Specifies intentionally untracked files to ignore
-
+```
 
 ### How to Run/View the Project To fully explore and replicate this project, please follow these steps: **1. Clone the Repository:** ```bash git clone [https://github.com/Nkanyisogwane/Vehicle-Sales-Performance-Dashboard-ETL-Pipeline.git](https://github.com/Nkanyisogwane/Vehicle-Sales-Performance-Dashboard-ETL-Pipeline.git) cd Vehicle-Sales-Performance-Dashboard-ETL-Pipeline
 
