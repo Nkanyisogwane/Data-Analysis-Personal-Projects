@@ -185,7 +185,7 @@ The `SQLforVehicle.sql` script contains a series of queries designed to pre-proc
 
 Below is a high-resolution screenshot of the complete interactive dashboard, showcasing the culmination of the data analytics pipeline.
 
-![Dashboard Preview] https://github.com/Nkanyisogwane/Data-Analysis-Personal-Projects/blob/main/Vehicle%20Sales%20Performance%20Dashboard%20&%20ETL%20Pipeline/03_Reports/power_bi/vehicle%20sales.png?raw=true
+![Dashboard Preview](https://github.com/Nkanyisogwane/Data-Analysis-Personal-Projects/blob/main/Vehicle%20Sales%20Performance%20Dashboard%20&%20ETL%20Pipeline/03_Reports/power_bi/vehicle%20sales.png?raw=true)
 
 ### Key Insights from the Dashboard
 
