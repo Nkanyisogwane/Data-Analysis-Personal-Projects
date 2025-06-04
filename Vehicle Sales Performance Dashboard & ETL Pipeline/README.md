@@ -209,15 +209,15 @@ This repository is structured to provide a clear, end-to-end view of the data an
 Vehicle Sales Performance Dashboard & ETL Pipeline/
 ├── 01_Data/
 │   ├── raw_data/
-│   │   └── original_dataset.csv
+│   │   └── original_dataset.csv          # Original raw dataset
 │   └── cleaned_data/
-│       └── cleaned_vehicles_data.csv
+│       └── cleaned_vehicles_data.csv     # Output from Python cleaning script
 ├── 02_Scripts/
 │   ├── python/
-│   │   └── data_cleaning.py
+│   │   └── data_cleaning.py              # Python script for data cleaning and preprocessing
 │   ├── sql/
-│   │   ├── SQLforVehicle.sql
-│   │   └── results_screenshots/
+│   │   ├── SQLforVehicle.sql             # SQL queries for schema creation, data loading, and transformations
+│   │   └── results_screenshots/          # Screenshots of SQL query results for documentation
 │   │       ├── Monthly Sales Trend.png
 │   │       ├── Top 10 Brands by Revenue and Volume.png
 │   │       ├── Average Price Gap by Brand.png
@@ -226,11 +226,11 @@ Vehicle Sales Performance Dashboard & ETL Pipeline/
 │   │       └── Transmission Type Trends.png
 ├── 03_Reports/
 │   └── power_bi/
-│       ├── VehicleSalesAnalysis.pbix
-│       └── vehicle sales.png
-├── README.md
-├── requirements.txt
-└── .gitignore
+│       ├── VehicleSalesAnalysis.pbix     # The final Power BI Desktop dashboard file
+│       └── vehicle sales.png             # High-resolution screenshot of the Power BI dashboard
+├── README.md                             # This comprehensive project documentation file
+├── requirements.txt                      # Python dependencies for easy environment setup
+└── .gitignore                            # Specifies intentionally untracked files to ignore
 
 
 ### How to Run/View the Project To fully explore and replicate this project, please follow these steps: **1. Clone the Repository:** ```bash git clone [https://github.com/Nkanyisogwane/Vehicle-Sales-Performance-Dashboard-ETL-Pipeline.git](https://github.com/Nkanyisogwane/Vehicle-Sales-Performance-Dashboard-ETL-Pipeline.git) cd Vehicle-Sales-Performance-Dashboard-ETL-Pipeline
