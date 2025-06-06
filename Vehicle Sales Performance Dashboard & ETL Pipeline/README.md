@@ -64,9 +64,10 @@ The `data_cleaning.py` script performs the following critical steps:
   Saves the cleaned and transformed data to a new CSV file, `clean_vehicle_sales.csv`, ready for SQL import.
 
 > **Note:**  
-> While this project achieved a functional cleaning pipeline, I later realized the importance of explicitly handling individual column issues, such as type mismatches or inconsistent formatting. For instance, some columns required more specific cleaning (e.g., numeric conversion or string sanitization) to avoid issues during SQL integration.  
->  
-> This experience informed improvements in my workflow, which are now implemented in more recent projects and help ensure smoother transitions between Python, SQL, and Power BI stages.
+> While this project achieved a functional cleaning pipeline, I later realized during the SQL phase that some data type issues had not been fully addressed in Python. Specifically, I encountered problems with numeric fields that were still in the wrong format, which required me to use `ROUND` and `CAST` functions in SQL Server to correct the data before analysis.
+> 
+> This revealed the importance of explicitly identifying which columns need to be cleaned and specifying how each should be handled (e.g., removing characters, converting data types). This was a key learning point, and I will apply this structured column-level cleaning approach in all projects going forward to ensure better consistency across Python, SQL, and Power BI stages.
+
 
 
 ### B. Data Storage & Transformation (SQL Server)
