@@ -33,20 +33,41 @@ This project follows a structured ETL (Extract, Transform, Load) approach, lever
 
 ### A. Data Cleaning & Preprocessing (Python)
 
-**Purpose:** The primary goal of this Python stage was to ensure the raw data was clean, consistent, and correctly formatted, making it suitable for import into a relational database and subsequent analysis. This involved addressing common data quality issues that could impede accurate insights.
+**Purpose:**  
+The primary goal of this Python stage was to ensure the raw data was clean, consistent, and correctly formatted, making it suitable for import into a relational database and subsequent analysis. This involved addressing common data quality issues that could impede accurate insights.
 
-**Key Operations Performed:**
+**Key Operations Performed:**  
 The `data_cleaning.py` script performs the following critical steps:
-* **Data Loading:** Reads the `car_prices.csv` file into a pandas DataFrame.
-* **Initial Data Overview:** Prints shape, columns, data types, and null counts to quickly assess data quality and structure.
-* **Robust Date Conversion:** Converts the `saledate` column to datetime objects using `format='mixed'` for flexibility and `utc=True` for consistent timezone handling. `errors='coerce'` is used to convert any unparseable dates into `NaT` (Not a Time), preventing script crashes.
-* **Handling Missing Key Data:** Drops rows where `saledate`, `sellingprice`, or `mmr` are missing, as these are fundamental for sales analysis.
-* **Feature Engineering:** Creates new calculated columns essential for the dashboard:
-    * `price_diff`: The difference between `sellingprice` and `mmr` (market value).
-    * `profit_margin`: The percentage profit margin, calculated as `price_diff` divided by `mmr`, rounded to two decimal places.
-    * `sale_year` and `sale_month`: Extracted from `saledate` for time-based analysis.
-* **Final Verification:** Prints a sample of the cleaned data and its data types to confirm the transformations.
-* **Export:** Saves the cleaned and transformed data to a new CSV file, `clean_vehicle_sales.csv`, ready for SQL import.
+
+- **Data Loading:**  
+  Reads the `car_prices.csv` file into a pandas DataFrame.
+
+- **Initial Data Overview:**  
+  Prints shape, columns, data types, and null counts to quickly assess data quality and structure.
+
+- **Robust Date Conversion:**  
+  Converts the `saledate` column to datetime objects using `format='mixed'` for flexibility and `utc=True` for consistent timezone handling. `errors='coerce'` is used to convert any unparseable dates into `NaT` (Not a Time), preventing script crashes.
+
+- **Handling Missing Key Data:**  
+  Drops rows where `saledate`, `sellingprice`, or `mmr` are missing, as these are fundamental for sales analysis.
+
+- **Feature Engineering:**  
+  Creates new calculated columns essential for the dashboard:
+  - `price_diff`: The difference between `sellingprice` and `mmr` (market value).
+  - `profit_margin`: The percentage profit margin, calculated as `price_diff` divided by `mmr`, rounded to two decimal places.
+  - `sale_year` and `sale_month`: Extracted from `saledate` for time-based analysis.
+
+- **Final Verification:**  
+  Prints a sample of the cleaned data and its data types to confirm the transformations.
+
+- **Export:**  
+  Saves the cleaned and transformed data to a new CSV file, `clean_vehicle_sales.csv`, ready for SQL import.
+
+> **Note:**  
+> While this project achieved a functional cleaning pipeline, I later realized the importance of explicitly handling individual column issues, such as type mismatches or inconsistent formatting. For instance, some columns required more specific cleaning (e.g., numeric conversion or string sanitization) to avoid issues during SQL integration.  
+>  
+> This experience informed improvements in my workflow, which are now implemented in more recent projects and help ensure smoother transitions between Python, SQL, and Power BI stages.
+
 
 ### B. Data Storage & Transformation (SQL Server)
 
