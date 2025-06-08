@@ -253,7 +253,7 @@ Executed analytical queries directly on SQL Server to extract key business insig
 ---
 
 ### 📸 Final Dashboard Screenshot  
-*(Insert screenshot here)*
+https://github.com/Nkanyisogwane/Data-Analysis-Personal-Projects/blob/main/My_Retail_Analytics_Project/powerbi/screenshots/dashboard_final_view.png?raw=true
 
 ## 📈 Key Insights & Analysis Performed
 
