@@ -18,7 +18,7 @@ The online retail company needed a robust solution to understand its sales dynam
 
 ## 📂 Dataset Description
 
-**Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/)
+**Source:** [Kaggle](https://www.kaggle.com/datasets/tunguz/online-retail)
 
 **Name:** Online Retail Dataset  
 **Rows:** 396,670  
@@ -141,7 +141,8 @@ Initial modeling issues included:
 
 **🧱 Result**: A clean, performant **Star Schema model** enabling accurate analytics.
 
-📸 *Data Model Screenshot Placeholder*
+📸 ![Data Model (Star Schema)](https://github.com/Nkanyisogwane/Data-Analysis-Personal-Projects/blob/main/My_Retail_Analytics_Project/powerbi/screenshots/data_model_star_schema.png?raw=true)
+
 
 ---
 
@@ -253,7 +254,8 @@ Executed analytical queries directly on SQL Server to extract key business insig
 ---
 
 ### 📸 Final Dashboard Screenshot  
-https://github.com/Nkanyisogwane/Data-Analysis-Personal-Projects/blob/main/My_Retail_Analytics_Project/powerbi/screenshots/dashboard_final_view.png?raw=true
+![Final Dashboard View](https://github.com/Nkanyisogwane/Data-Analysis-Personal-Projects/blob/main/My_Retail_Analytics_Project/powerbi/screenshots/dashboard_final_view.png?raw=true)
+
 
 ## 📈 Key Insights & Analysis Performed
 
@@ -308,26 +310,11 @@ The comprehensive analysis yielded several actionable insights:
 - **Price Sensitivity per Country** (Planned)  
 - **Return Rate by Customer Segments** (Planned)  
 
-## ✅ Next Steps
 
-- Host dashboard on Power BI Service (optional)  
-- Upload project to GitHub with proper documentation (**Completed: this README!**)  
-- Enhance visual storytelling with bookmark pages (Planned)  
-- Implement a Smart Narrative visual in Power BI for automated, dynamic textual summaries  
-- Explore the Key Influencers visual to identify primary drivers of specific business outcomes  
-- Add Drill-through pages in Power BI for detailed transaction-level analysis  
-- Investigate Advanced DAX patterns for more complex calculations  
-- Implement Time Series Forecasting in Python (e.g., using the Prophet library) to predict future sales trends and demand  
-
-## 🙌 Acknowledgments
-
-- **UCI Machine Learning Repository** – For providing the dataset  
-- **Power BI Community** – For resources and support  
-- **Stack Overflow & Medium Blogs** – For Python insights and troubleshooting guidance  
-
-## 🔗 Connect
+## 🔗 Connect 
 
 If you like this project or have feedback, feel free to connect with me on LinkedIn!
+[Connect with me on LinkedIn](https://www.linkedin.com/in/nkanyiso-gwane/)
 
 ---
 
