@@ -333,7 +333,7 @@ If you like this project or have feedback, feel free to connect with me on Linke
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 My_Retail_Analytics_Project/
 ├── README.md # Main project documentation
 ├── .gitignore # Git ignore file for specific files/folders
@@ -371,4 +371,4 @@ My_Retail_Analytics_Project/
 │ └── data_model_star_schema.png # Screenshot of the Power BI data model (star schema)
 │
 └── requirements.txt # List of Python libraries and their versions
-\`\`\`
+```
