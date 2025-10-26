@@ -92,7 +92,7 @@ Overall, the dashboard enables **data-driven decision-making** by providing a un
 - **Business Intelligence (BI)**  
 - **Report Design & Visualization**
 
-## 📸 Dashboard / Output
+
 ## 📸 **Dashboard Visuals**
 
 ### 🧩 Model View
