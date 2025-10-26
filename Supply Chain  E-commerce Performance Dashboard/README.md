@@ -28,11 +28,63 @@ To provide an end-to-end analytical solution that tracks performance across sale
   - Added **What-If parameters** for scenario analysis  
   - Applied data visualization best practices for clarity and accessibility  
 
-## 📊 Insights / Results
-- Identified top-performing products and customer segments  
-- Highlighted regions with high profitability potential  
-- Exposed inefficiencies in shipping operations and cost structures  
-- Enabled executives to make faster, data-driven strategic decisions  
+## 📊 **Project Insights & Key Findings**
+
+### 1️⃣ Executive Summary — *High-Level Performance*
+This page provides a top-level financial and operational overview, focusing on YTD and year-over-year comparisons.
+
+- 💰 **Overall Financial Health:** The business achieved **R33.05M in Total Sales** and **R3.97M in Total Profit**, setting strong baseline performance metrics.  
+- 📦 **Order Volume:** A total of **65.75K Orders** were processed with **384K Items Sold**, reflecting high transaction activity.  
+- 🌍 **Regional Performance:** **Europe (R9.8M)** and **LATAM (R9.2M)** are the highest-grossing markets, together contributing over **57% of total profit**, marking them as key growth regions.  
+- ⚙️ **Order Status Efficiency:** While most orders are **COMPLETE (R10.86M)**, significant amounts remain **PENDING PAYMENT (R7.29M)** or **PROCESSING (R4.05M)** — highlighting areas to improve collections and fulfillment.  
+- ⏱️ **Delivery Efficiency (KPI):** The **On-Time Delivery Rate is 45.18%**, indicating a major operational improvement opportunity in logistics and service delivery.  
+
+---
+
+### 2️⃣ Sales & Customer Overview — *Customer Behavior Deep Dive*
+This page analyzes customer value, segmentation, and discount effectiveness.
+
+- 👥 **Customer Base Value:** The business served **20.65K unique customers** with an **Average Order Value (AOV)** of **R532.46**, revealing a broad yet moderately high-value base.  
+- 🎁 **Discount Impact:** **R309.18K** in discounts were applied, useful for modeling promotional ROI and optimizing discount strategies.  
+- 💎 **High-Value Customers:** The top customer, **William Smith**, contributed **R11,658.48** from only **23 orders**, showcasing high-value customer influence.  
+- 🧩 **Segmentation Value:** The **Consumer segment** generated **R1.45M in sales**, around **80% higher** than the **Home Office segment (R0.82M)** — guiding targeted marketing investment.  
+- 🗺️ **Sales Concentration:** Geographic analysis revealed high activity in specific **U.S. and European regions**, helping sales teams focus regional outreach efforts.  
+
+---
+
+### 3️⃣ Sales & Product Performance — *Product & Category Profitability*
+This page connects sales performance directly to product- and category-level profitability.
+
+- 📈 **Overall Profitability:** The overall **Profit Ratio stands at 12%**, signaling solid performance but also opportunities for margin optimization.  
+- 🎣 **Top Performing Category:** **Fishing** emerged as the most profitable category, generating **R0.39M in Total Profit**, and is ideal for increased investment.  
+- 🛡️ **Top Product:** The **“Field & Stream Sportsman 16 Gun Fire Safe”** is the leading product with **R3.24M in Sales** and **R393K in Profit** across **9,023 items sold** — the single most valuable product to the business.  
+- 🧭 **Category Focus:** The top 5 categories (**Fishing**, **Cleats**, **Camping & Hiking**, **Cardio Equipment**, and **Women’s Apparel**) drive the majority of profit, suggesting reduced depth for underperforming categories.  
+
+---
+
+### 4️⃣ Profitability & Shipping Efficiency — *Operational Insights*
+This page integrates logistics costs and delivery methods into overall profitability.
+
+- 🚚 **Shipping Performance:** The **Shipping Performance Index (0.57)** shows a mismatch between scheduled and actual delivery days, pointing to fulfillment delays.  
+- 📉 **Profit Trend Instability:** Profit trends show volatility — sharp drop in **February (R301K)**, recovery mid-year, and another decline in **November (R282K)** and **December (R261K)** — possibly tied to seasonal factors or operational bottlenecks.  
+- 🚛 **Shipping Mode Profitability:** **Standard Class** shipping is the most efficient and profitable, delivering **R2.4M in Profit**, nearly **3× higher** than **Second Class (R0.8M)**.  
+- 🧮 **Segment Shipping Efficiency:** The **Consumer segment** accounts for the **highest shipping time (0.33M total days)** compared to Corporate and Home Office, suggesting individual consumer orders drive delivery complexity.  
+  
+### 📊 Overall Project Summary  
+
+This **Supply Chain & E-commerce Performance Dashboard** provides a comprehensive analysis of key business metrics across multiple domains — including **sales performance, product profitability, customer behavior, and shipping efficiency**.  
+
+The project was built using **SQL for data preparation** and **Power BI for visualization**, following a structured approach from data cleaning to modeling and dashboard creation.  
+
+#### Key insights uncovered include:  
+- Identification of **top-performing products and categories** driving overall revenue.  
+- Analysis of **regional and customer-based sales performance** to pinpoint profitable segments.  
+- Evaluation of **shipping costs and delivery efficiency** to improve operational logistics.  
+- An **executive-level overview** highlighting revenue trends, profit margins, and business growth indicators.  
+
+Overall, the dashboard enables **data-driven decision-making** by providing a unified view of business performance, helping stakeholders track KPIs and optimize supply chain efficiency.  
+
+
 
 ## 🧰 Tools Used
 - **Microsoft Power BI**  
