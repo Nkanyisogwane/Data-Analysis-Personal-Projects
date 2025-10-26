@@ -4,7 +4,7 @@ This repository showcases my personal data analysis projects as an aspiring **ju
 
 ## ✨ **Project Highlight**
 
-[**📦 Supply Chain & E-commerce Performance Dashboard**](https://github.com/Nkanyisogwane/Data-Analysis-Personal-Projects/tree/main/Supply_Chain_Ecommerce_Dashboard)
+[**📦 Supply Chain & E-commerce Performance Dashboard**]([Supply Chain  E-commerce Performance Dashboard](https://github.com/Nkanyisogwane/Data-Analysis-Personal-Projects/tree/main/Supply%20Chain%20%20E-commerce%20Performance%20Dashboard))
 
 **Completion Date: August 2025  
 
