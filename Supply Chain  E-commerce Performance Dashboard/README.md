@@ -1,3 +1,16 @@
+## 📸 **Dashboard Visuals (Gallery View)**
+
+| 🧩 Model View | 📊 Executive Summary | 🛍️ Sales & Product Performance |
+|:--------------:|:--------------------:|:-------------------------------:|
+| ![Model View](https://github.com/Nkanyisogwane/Data-Analysis-Personal-Projects/blob/main/Supply%20Chain%20%20E-commerce%20Performance%20Dashboard/04_Visuals/5.ModelView.png?raw=true) | ![Executive Summary](https://github.com/Nkanyisogwane/Data-Analysis-Personal-Projects/blob/main/Supply%20Chain%20%20E-commerce%20Performance%20Dashboard/04_Visuals/1.Executive%20Summary%20(High-Level%20Performance).png?raw=true) | ![Sales & Product Performance](https://github.com/Nkanyisogwane/Data-Analysis-Personal-Projects/blob/main/Supply%20Chain%20%20E-commerce%20Performance%20Dashboard/04_Visuals/2.Sales%20&%20Product%20Performance%20(Analysis%20of%20Product%20&%20Category%20Profitability).png?raw=true) |
+
+| 👥 Sales & Customer Overview | 🚚 Profitability & Shipping Efficiency |
+|:-----------------------------:|:--------------------------------------:|
+| ![Sales & Customer Overview](https://github.com/Nkanyisogwane/Data-Analysis-Personal-Projects/blob/main/Supply%20Chain%20%20E-commerce%20Performance%20Dashboard/04_Visuals/3.Sales%20&%20Customer%20Overview%20(Deep%20Dive%20into%20Customer%20Behavior).png?raw=true) | ![Profitability & Shipping Efficiency](https://github.com/Nkanyisogwane/Data-Analysis-Personal-Projects/blob/main/Supply%20Chain%20%20E-commerce%20Performance%20Dashboard/04_Visuals/4.Profitability%20and%20Shipping%20Analysis.png?raw=true) |
+
+
+
+
 # Supply Chain & E-commerce Performance Dashboard
 
 ## 🧠 Overview
