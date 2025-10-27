@@ -2,6 +2,19 @@
 
 This repository showcases my personal data analysis projects as an aspiring **junior data analyst**. Here, you’ll find projects where I apply everything I've learned, including some that use **SQL and Power BI** and others focused on **Power BI only**. These projects reflect my journey in building practical skills in data analysis, from data cleaning to creating insightful visualizations.
 
+
+## ✨ **Project Highlight**
+
+[**🏬 Warehouse Retail Sales Dashboard**](https://github.com/Nkanyisogwane/Data-Analysis-Personal-Projects/tree/main/Warehouse%20Retail%20Sales%20Perfomance%20Dashboard)
+
+**Completion Date:** August 2025  
+
+This project features a **Power BI dashboard** built to analyze sales performance across **retail, warehouse, and transfer channels** for a beverage distributor. It provides a clear view of **channel profitability, product performance, and supplier efficiency**, supported by interactive visuals and dynamic filters. Completed in **August 2025**, it demonstrates strong skills in **data modeling, visualization, and business insight generation**.
+
+
+
+
+
 ## ✨ **Project Highlight**
 
 [**📦 Supply Chain & E-commerce Performance Dashboard**]([Supply Chain  E-commerce Performance Dashboard](https://github.com/Nkanyisogwane/Data-Analysis-Personal-Projects/tree/main/Supply%20Chain%20%20E-commerce%20Performance%20Dashboard))
