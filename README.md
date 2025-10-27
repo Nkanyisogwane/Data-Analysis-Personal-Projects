@@ -6,7 +6,7 @@ This repository showcases my personal data analysis projects as an aspiring **ju
 
 [**📦 Supply Chain & E-commerce Performance Dashboard**]([Supply Chain  E-commerce Performance Dashboard](https://github.com/Nkanyisogwane/Data-Analysis-Personal-Projects/tree/main/Supply%20Chain%20%20E-commerce%20Performance%20Dashboard))
 
-**Completion Date: August 2025  
+**Completion Date: August 2025**  
 
 This project showcases a **comprehensive end-to-end business intelligence solution**, built using **Power BI** to analyze and visualize performance data across an e-commerce and supply chain operation.  
 
@@ -16,7 +16,7 @@ The project highlights advanced Power BI techniques, including drill-through nav
 
 
 
-## ✨ ** Project Highlight**
+## ✨ **Project Highlight**
 
 [**🛒 Online Retail Sales Performance Analytics**](https://github.com/Nkanyisogwane/Data-Analysis-Personal-Projects/tree/main/My_Retail_Analytics_Project)
 
