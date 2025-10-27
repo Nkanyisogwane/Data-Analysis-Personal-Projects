@@ -62,6 +62,12 @@ This reflects **diversified supplier relationships** across channels, each playi
 
 ---
 
+# 🏬 Warehouse Retail Sales Dashboard  
+
+![Warehouse Retail Sales Dashboard](https://github.com/Nkanyisogwane/Data-Analysis-Personal-Projects/blob/main/Warehouse%20Retail%20Sales%20Perfomance%20Dashboard/02.PowerBI/SalesImage.png?raw=true)
+
+
+
 ### 💡 Summary  
 
 This dashboard effectively captures the **sales ecosystem** of a beverage distribution business, highlighting key opportunities in product performance, supplier partnerships, and sales strategy alignment.  
